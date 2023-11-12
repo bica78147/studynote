@@ -1,0 +1,2 @@
+User-agent *Allow:/
+sitemap: https://bica78147.github.io/studynote/sitemap.xml
