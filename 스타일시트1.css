@@ -1,0 +1,120 @@
+/* 스타일시트1.css */
+
+/* 기본 설정 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f4f8; /* 배경색 */
+  color: #333; /* 텍스트 색상 */
+  font-family: Arial, sans-serif; /* 기본 폰트 설정 */
+}
+
+header {
+  background-color: #2C3E50; /* 짙은 회색 */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header a {
+  color: #3498DB;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header h1 {
+  font-size: 2.5em; /* h1 태그 크기 조정 */
+  font-weight: bold; /* 볼드체 설정 */
+  margin-bottom: 0; /* 아래쪽 여백 제거 */
+  position: relative; /* 상대 위치 지정 */
+}
+
+header h1::after {
+  content: ''; /* 내용 없음 */
+  display: block; /* 블록 요소로 만들기 */
+  height: 2px; /* 선의 두께 */
+  background-color: #ccc; /* 선의 색상 */
+  margin: 10px 0; /* 위아래 여백 */
+  width: 50%; /* 선의 너비 (50%로 설정) */
+  margin-left: auto; /* 중앙 정렬을 위한 여백 */
+  margin-right: auto; /* 중앙 정렬을 위한 여백 */
+}
+
+header p {
+  font-size: 1.2em; /* p 태그 크기 조정 */
+  font-weight: normal; /* 일반체 설정 */
+  margin: 0; /* 여백 제거 */
+}
+
+/* 메인 스타일 */
+main {
+  margin-top: 20px;
+}
+
+main h2 {
+  color: #3498DB; /* 파란색 */
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+main h3 {
+  color: #2C3E50; /* 짙은 회색 */
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+
+main h4 {
+  color: #7F8C8D; /* 중간 회색 */
+  margin-top: 15px;
+  font-size: 1.2em;
+}
+
+main p {
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
+main a {
+  color: #3498DB; /* 파란색 */
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* 블록 스타일 */
+section div {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* footer 스타일 */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2C3E50;
+  color: white;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #3498DB;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
